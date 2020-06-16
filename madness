@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+
+    int n;
+    char str[][1000]=
+    {
+        "Bangladesh",
+        "India",
+        "China",
+        "America",
+        "Nepal",
+        "Bhutan",
+        "Sir Lanka",
+        "London",
+        "Ireland",
+        "Maldip",
+        "Franc",
+        "Myanmar"
+    };
+
+    printf("Enter a number: ");
+    while(scanf("%d",&n) != EOF)
+    {
+        printf("%s\n", str[n-1]);
+        printf("Enter a number: ");
+    }
+
+
+
+
+
+
+
+
+    return 0;
+}
