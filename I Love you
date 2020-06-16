@@ -1,0 +1,38 @@
+#include <stdio.h>
+ 
+void printSpace(int n)
+{
+    for(int i = 0; i< n; i++)
+        printf(" ");
+}
+int main()
+{
+ 
+ 
+    char f[50] ="I Lo";
+    char s[50] ="v";
+    char l[50] ="e You";
+ 
+    int d = 5;
+    int k = 5;
+    for(int i = 0; i<30; i++)
+    {
+        if(i > 10) d--;
+        if(i > 20)
+        {
+            d = 0;
+        }
+ 
+        if(i <=15) printSpace(k-d);
+        if(i > 15)printSpace(k);
+        printf("%s", f);
+        printSpace(d);
+        printf("%s", s);
+        printSpace(d);
+        printf("%s", l);
+        printf("\n");
+    }
+ 
+    return 0;
+}
+ 
